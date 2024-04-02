@@ -4,13 +4,13 @@
 ## Command `cd`
 ---
 
-1. No Arguments
+**1. No Arguments**
 ```
 aidan@DESKTOP-V7LTJCQ MINGW64 ~
 $ cd
 ```
 
-2. Directory as Argument
+**2. Directory as Argument**
 ```
 aidan@DESKTOP-V7LTJCQ MINGW64 ~
 $ cd lecture1
@@ -18,7 +18,7 @@ $ cd lecture1
 aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
 ```
 
-3. File as Argument
+**3. File as Argument**
 ```
 aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
 $ cd Hello.java

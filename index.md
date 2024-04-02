@@ -5,9 +5,9 @@ This is Aidan's first file. *how fancy*
 
 # Section Two!
 ---
--Bullet points
--Wow
--So cool
+- Bullet points
+- Wow
+- So cool
 
 
 > **Here's my LinkedIn**

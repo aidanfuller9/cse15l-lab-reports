@@ -13,7 +13,8 @@ This is Aidan's first file. *how fancy*
 > **Here's my LinkedIn**
 [Link](https://www.linkedin.com/in/aidan-fuller-a21603201/)
 
-**Image**
+**Image of Remy**
+
 ![Image](https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Remy.Ratatouille.webp)	
 
 

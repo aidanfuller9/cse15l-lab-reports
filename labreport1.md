@@ -108,5 +108,5 @@ Hello
 World!
 ```
 **Absolute Path:** /c/Users/aidan/lecture1 <br>
-**Explanation:** I created two new files called `file1` and `file2` within the `lecture1` directory and gave them each text. Using the cat command and passing in `file1` (with the content "Hello") and `file2` (with the content "World!") as arguments prints the content of both out at the same time, writing "Hello World!"
+**Explanation:** I created two new files called `file1` and `file2` within the `lecture1` directory and gave them each text. Using the cat command and passing in `file1` (with the content "Hello") and `file2` (with the content "World!") as arguments prints the content of both out at the same time, writing "Hello World!" <br>
 **Error:** N/A

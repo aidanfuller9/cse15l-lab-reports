@@ -98,7 +98,6 @@ cat: lecture1: Is a directory
 aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
 $ touch file1
 $ touch file2
-aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
 $ echo "Hello" > file1
 $ echo "World!" > file2
 

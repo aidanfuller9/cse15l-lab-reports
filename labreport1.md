@@ -56,7 +56,7 @@ ls: cannot access 'lecture1': No such file or directory
 ```
 **Absolute Path:** /c/Users/aidan/lecture1 <br>
 **Explanation:** An error occurs when the name of the current directory is specified within the `ls` command line <br>
-**Error:** Because we are already in the `lecture1` directory, specifying `lecture1` again after `ls` attempts to find a second directory within `lecture1` also named `lecture1` which does not exist and results in an error. 
+**Error:** Because we are already in the `lecture1` directory, specifying "lecture1" again after `ls` attempts to find a second directory named `lecture1` which does not exist and results in an error. 
 
 **3. File as Argument**
 ```
@@ -64,6 +64,9 @@ aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
 $ ls Hello.java
 Hello.java
 ```
+**Absolute Path:** /c/Users/aidan/lecture1 <br>
+**Explanation:** `Hello.java` is a specific file within the `lecture1` directory, so typing `ls Hello.java` while in `lecture1` returns the files within `Hello.java`, which is simply itself. 
+**Error:** N/A
 
 ---
 ## Command `cat`

@@ -1,5 +1,5 @@
 # LAB REPORT ONE
-Aidan Fuller
+Aidan Fuller <br>
 4/2/2024
 ---
 ## Command `cd`

@@ -80,7 +80,7 @@ aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
 $ cat
 ```
 **Absolute Path:** /c/Users/aidan/lecture1 <br>
-**Explanation:** Nothing happens, as `cat` is used to concatenate two files, however there are no files specified in the command line so the function is not provided with anything to concatenate. <br> 
+**Explanation:** Nothing happens, as `cat` is used to concatenate two files, however there are no files specified in the command line so the command is not provided with anything to concatenate. <br> 
 **Error:** N/A
 
 ## **2. Directory as Argument**
@@ -90,7 +90,7 @@ $ cat lecture1
 cat: lecture1: Is a directory
 ```
 **Absolute Path:** /c/Users/aidan/lecture1 <br>
-**Explanation:** An error occurs when the `cat` function is used with a directory as its argument. <br>
+**Explanation:** An error occurs when the `cat` command is used with a directory as its argument. <br>
 **Error:** `cat` is used to concatenate two files and can only take in specific files as its arguments, so when the directory `lecture1` is used, there is an error since the information from a file is displayed differently than that of a directory.
 
 ## **3. File as Argument**

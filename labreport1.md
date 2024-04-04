@@ -85,11 +85,28 @@ $ cat
 
 ## **2. Directory as Argument**
 ```
-aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
-$ ls lecture1
-ls: cannot access 'lecture1': No such file or directory
+aidan@DESKTOP-V7LTJCQ MINGW64 ~
+$ cat lecture1
+cat: lecture1: Is a directory
 ```
+**Absolute Path:** /c/Users/aidan/lecture1 <br>
+**Explanation:** An error occurs when the `cat` function is used with a directory as its argument. <br>
+**Error:** `cat` is used to concatenate two files and can only take in specific files as its arguments, so when the directory `lecture1` is used, there is an error since the information from a file is displayed differently than that of a directory.
 
 ## **3. File as Argument**
 ```
+aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
+$ touch file1
+$ touch file2
+aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
+$ echo "Hello" > file1
+$ echo "World!" > file2
 
+aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
+$ cat file1 file2
+Hello
+World!
+```
+**Absolute Path:** /c/Users/aidan/lecture1 <br>
+**Explanation:** I created two new files called `file1` and `file2` within the `lecture1` directory and gave them each text. Using the cat command and passing in `file1` (with the content "Hello") and `file2` (with the content "World!") as arguments prints the content of both out at the same time, writing "Hello World!"
+**Error:** N/A

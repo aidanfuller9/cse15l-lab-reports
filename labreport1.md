@@ -9,8 +9,8 @@
 aidan@DESKTOP-V7LTJCQ MINGW64 ~
 $ cd
 ```
-**Absolute Path:** 
-**Explanation:** Nothing happens, as there was no directory specified for `cd` to change the working directory to. 
+**Absolute Path:** <br>
+**Explanation:** Nothing happens, as there was no directory specified for `cd` to change the working directory to. <br>
 **Error:** N/A
 
 **2. Directory as Argument**

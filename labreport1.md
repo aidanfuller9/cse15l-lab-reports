@@ -9,7 +9,7 @@
 aidan@DESKTOP-V7LTJCQ MINGW64 ~
 $ cd
 ```
-**Absolute Path:** <br>
+**Absolute Path:** /c/Users/aidan/ <br>
 **Explanation:** Nothing happens, as there was no directory specified for `cd` to change the working directory to. <br>
 **Error:** N/A
 
@@ -20,7 +20,7 @@ $ cd lecture1
 
 aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
 ```
-**Absolute Path:** <br>
+**Absolute Path:** /c/Users/aidan/ <br>
 **Explanation:** The directory is changed to `lecture1` as it was specified in the command line. <br>
 **Error:** N/A
 
@@ -30,7 +30,7 @@ aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
 $ cd Hello.java
 bash: cd: Hello.java: Not a directory
 ```
-**Absolute Path:** <br>
+**Absolute Path:** /c/Users/aidan/ <br>
 **Explanation:** An error occurs when a specific file is listed after the `cd` command. <br>
 **Error:** `cd` cannot be used to change the current working directory to a specific file, as a file is not meant to be a directory. 
 

@@ -1,5 +1,6 @@
 # LAB REPORT ONE
-
+Aidan Fuller
+4/2/2024
 ---
 ## Command `cd`
 ---
@@ -65,7 +66,7 @@ $ ls Hello.java
 Hello.java
 ```
 **Absolute Path:** /c/Users/aidan/lecture1 <br>
-**Explanation:** `Hello.java` is a specific file within the `lecture1` directory, so typing `ls Hello.java` while in `lecture1` returns the files within `Hello.java`, which is simply itself. 
+**Explanation:** `Hello.java` is a specific file within the `lecture1` directory, so typing `ls Hello.java` while in `lecture1` returns the files within `Hello.java`, which is simply itself. <br>
 **Error:** N/A
 
 ---
@@ -74,8 +75,12 @@ Hello.java
 
 **1. No Arguments**
 ```
-
+aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
+$ cat
 ```
+**Absolute Path:** /c/Users/aidan/lecture1 <br>
+**Explanation:** Nothing happens, as `cat` is used to concatenate two files, however there are no files specified in the command line so the function is not provided with anything to concatenate. <br> 
+**Error:** N/A
 
 **2. Directory as Argument**
 ```

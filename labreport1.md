@@ -20,8 +20,8 @@ $ cd lecture1
 
 aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
 ```
-**Absolute Path:**
-**Explanation:** The directory is changed to `lecture1` as it was specified in the command line. 
+**Absolute Path:** <br>
+**Explanation:** The directory is changed to `lecture1` as it was specified in the command line. <br>
 **Error:** N/A
 
 **3. File as Argument**
@@ -30,8 +30,8 @@ aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
 $ cd Hello.java
 bash: cd: Hello.java: Not a directory
 ```
-**Absolute Path:**
-**Explanation:** An error occurs when a specific file is listed after the `cd` command. 
+**Absolute Path:** <br>
+**Explanation:** An error occurs when a specific file is listed after the `cd` command. <br>
 **Error:** `cd` cannot be used to change the current working directory to a specific file, as a file is not meant to be a directory. 
 
 ---

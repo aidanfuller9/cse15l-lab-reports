@@ -23,7 +23,7 @@ $ cd lecture1
 aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
 ```
 **Absolute Path:** `/c/Users/aidan/` <br>
-**Explanation:** The directory is changed to `lecture1` as it was specified in the command line. Now the absolute path is `/c/Users/aidan/lecture1` <br>
+**Explanation:** The directory is changed to `lecture1` as specified in the command line. The absolute path is now `/c/Users/aidan/lecture1` <br>
 **Error:** N/A
 
 ## **3. File as Argument**

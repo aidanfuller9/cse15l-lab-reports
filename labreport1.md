@@ -26,6 +26,8 @@ aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)
 **Explanation:** The directory is changed to `lecture1` as specified in the command line. The absolute path is now `/c/Users/aidan/lecture1`. <br>
 **Error:** N/A.
 
+<br>
+
 ## **3. File as Argument**
 ```
 aidan@DESKTOP-V7LTJCQ MINGW64 ~/lecture1 (main)

@@ -1,6 +1,6 @@
 # LAB REPORT TWO
 ---
-## Chat Server - Part 1 
+# Chat Server - Part 1 
 ---
 ## Code
 ```
@@ -31,18 +31,21 @@ public String handleRequest(URI url) {
 ```
 
 ---
-## Part 2 
+# Part 2 
 ---
-Absolute Path to Local Private Key: 
-![LocalKey](Screenshot_LocalKey) 
-Absolute Path to ieng6 Public Key:
+## Absolute Path to Local Private Key: 
+![LocalKey](Screenshot_LocalKey) <br>
 
-Terminal Interaction Without Password: 
+## Absolute Path to ieng6 Public Key:
+![RemoteKey](Screenshot_RemoteKey) <br>
+
+## Terminal Interaction Without Password: 
+![Login](Screenshot_Login) <br>
 
 ---
-## Part 3
+# Part 3
 ---
-
+One thing that was interesting to me is the use of keys to sign into the server. I know of websites using hashing to encrypt passwords and compare the encriptions to each other for extra levels of security but I didn't know about server logins like the `ieng6` one we are using and how it can generate key pairs to make signing into the server easier and more secure. 
 
 
 

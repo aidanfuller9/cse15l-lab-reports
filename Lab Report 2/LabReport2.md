@@ -34,7 +34,7 @@ public String handleRequest(URI url) {
 ## Part 2 
 ---
 Absolute Path to Local Private Key: 
-
+![LocalKey](Screenshot_LocalKey) 
 Absolute Path to ieng6 Public Key:
 
 Terminal Interaction Without Password: 

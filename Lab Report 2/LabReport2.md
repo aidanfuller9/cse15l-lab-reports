@@ -46,7 +46,7 @@ class ChatServer {
 
 ## Message One
 `/add-message?s=Howdy&user=aifuller` <br>
-Expected to output ` aifuller: Howdy `
+Expected to output `aifuller: Howdy`
 ### Methods Called
 getQuery - determine the query in the search bar <br>
 query.split - divides the search bar query into two different sections, the user and the message text <br>
@@ -58,7 +58,7 @@ the `URI` is also updated, as now the path to the webpage includes the `/add-mes
 
 ## Message Two
 `/add-message?s=Nice to see you!&user=jjfuller` <br>
-Expected to output ` jjfuller: Nice to see you! ` <br>
+Expected to output `jjfuller: Nice to see you!` <br>
 
 Full page 
 ```  

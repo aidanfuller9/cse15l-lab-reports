@@ -40,7 +40,6 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-
 ### Fixed reverseInPlace
 ```
 static void reverseInPlace(int[] arr) {
@@ -51,7 +50,6 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-
 The problem with the original method is that it will essentially replace every element in the array with the last element, because the each iteration of `i` changes the index `arr[i]` to `arr[arr.length - i - 1]` which is just the last element in the array and is never altered throughout the loop. The fixed version only iterates through half of the array as determined by `arr.length / 2` and creates a `temp` variable inside the loop that is set to the current value at `arr[i]` before it is overwritten. Then, the index at the of the array is set to the value stored in temp so that no numbers are overwritten and lost.  
 
 ---

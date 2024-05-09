@@ -57,7 +57,6 @@ The problem with the original method is that it will essentially replace every e
 ---
 # Researching Commands - Part 2
 ---
-
 ## grep -c 
 ---
 ### File

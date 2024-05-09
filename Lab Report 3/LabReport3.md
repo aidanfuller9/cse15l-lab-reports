@@ -77,7 +77,6 @@ technical/biomed/1468-6708-3-4.txt:0
 
 Source: `grep --help` 
 
-
 ## grep -a
 ---
 ### File
@@ -147,7 +146,7 @@ technical/plos/journal.pbio.0020190.txt:        chromosomes, on the order of one
 technical/plos/journal.pbio.0020223.txt:        Watson-Crick base pairing, the proximity of the synthetic reactive groups elevates their
 **continues on to list more lines**
 ```
--H lists all of the lines that match the given text and can be used to find all the correct lines within multiple files. The format is <br> `grep -H "[Search Term]"[File Name(s)]` . Similarly, if you search a directory with it, it will find all of the instances of the specific term. 
+-H lists all of the lines that match the given text and can be used to find all the correct lines within multiple files. The format is <br> `grep -H "[Search Term]"[File Name(s)]` . If you search a directory with it, it will find also all of the instances of the specific term. 
 
 <br>
 

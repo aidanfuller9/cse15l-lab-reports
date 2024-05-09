@@ -26,7 +26,7 @@ public void testReverseInPlaceLengthOne() {
     assertArrayEquals(new int[]{ 1 }, input1);
 }
 ```
-This only passes because there is only one element in the array, so even though the method is faulty it still returns the 'correct' order. 
+This only passes because there is only one element in the array, so even though the method is faulty it still returns the 'correct' order. <br>
 
 ## Test Symptom
 ![TestSymptom](Screenshot_TestSymptom) <br>

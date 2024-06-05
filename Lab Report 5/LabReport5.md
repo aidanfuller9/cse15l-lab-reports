@@ -31,7 +31,7 @@ Here is an image of the filter method: <br>
 ![FilterMethod](FilterMethod.png) <br>
 
 ---
-> **the instructors' response**
+> **instructors' response**
 ---
 Ah, I see where the error is. Your bash script seems to be calculating the amount of tests passed without problem, the issue lies within your test case! If you look to the line in your `filter` method that states `result.add(0, s);`, be mindful of the fact that you are adding each new item to the **front** of your new filtered list, not the back. Therefore, your `grade.sh` autograder works fine, but you need to fix your test case. 
 
@@ -44,8 +44,14 @@ I get it now, thank you! My test case was capturing the words `cereal`, `basebal
 
 
 ---
-> **the instructors' response**
+> **instructors' response**
 ---
 I see where the issue is here as well. When you get all of the tests correct, there is no indication of `Failures:` or `Tests Run:` within `Results.txt`, because the displayed message is different and just contains `OK (X Tests`. This means that if **all** of your tests properly pass, there is no way for the `failures` or `testsRun` variables to be selected using the `grep` command. I would recommend using an `if else` statement in order to add a case depending on whether or not all the tests pass or fail, and then accessing the amount differently based on the condition. 
+
+---
+> **students' response**
+---
+That makes so much sense, thank you for your help! I added an `if else` statement to determine whether or not 100% of the tests passed, and then I determined the `testsRun` value a different way. Now when I run it, the output properly lists `Total Score Is: 1 out of 1`. Thank you so much for all of your help!
+![FixedScript](FixedScript.png) <br>
 
 

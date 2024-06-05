@@ -2,24 +2,16 @@
 Aidan Fuller <br> 6/4/2024
 
 
----
-#### question @5
----
-
-<div style="border: 2px solid #ccc; border-radius: 10px; padding: 15px; background-color: #f9f9f9;">
-    <h2 style="margin-top: 0;">Error With Code</h2>
-    <pre style="background-color: #eee; padding: 10px; border-radius: 5px;">
-Hello, I am having an issue with this code where this happens when its supposed to be this
-    </pre>
-
----
-#### the instructors' answer
----
-<div style="border: 2px solid #ccc; border-radius: 10px; padding: 15px; background-color: #f9f9f9;">
-    <h2 style="margin-top: 0;">Error With Code</h2>
-    <pre style="background-color: #eee; padding: 10px; border-radius: 5px;">
-Hello, I am having an issue with this code where this happens when its supposed to be this
-    </pre>
 
 
-    
+
+> **private question @5**
+---
+
+Hello, I am having trouble with my autograder `grade.sh` script for Lab 6. I have designed it to display the number of tests that are passing in my program and everything seems to work except the score part, where it keeps saying `Total Score Is: 0 out of 1`. I've looked over the bash script and I can't find any reason as to why it keeps displaying zero, but there must be some issue. The autograder must be broken!!! 
+
+Here is an image of my autograder: 
+
+
+> **the instructors' answer**
+---
